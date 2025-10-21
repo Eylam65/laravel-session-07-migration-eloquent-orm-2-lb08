@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
             'password' => bcrypt('password'),
         ]);
 
-        # Create Relateed Profile
+        // Create Related Profile
         $user->profile()->create([
             'phone' => '08123456789',
             'bio' => 'Lecturer and tech enthusiast.',
